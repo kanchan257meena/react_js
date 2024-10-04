@@ -1,0 +1,29 @@
+.main{
+    /* display: inline-block; */
+    background-image: url(./routingfiles/sunset.jpg); 
+    background-size: cover;
+    display: flex;
+    align-items: center;justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 50px; padding-top: 20px;
+}
+
+.name{
+    margin-top: 10px;
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    height: 60%;
+    width: 80%;
+}
+.card{
+    display: flex; flex-direction: column; justify-content: center;
+    height: 220px; width: 180px;align-items: center;
+    box-shadow: 5px 3px rgba(34, 28, 28, 0.46);
+   
+}
+
+
